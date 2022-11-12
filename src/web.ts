@@ -7,4 +7,8 @@ export class StarPrintersWeb extends WebPlugin implements StarPrintersPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  async test(): Promise<string> {
+    return 'It works!';
+  }
 }
